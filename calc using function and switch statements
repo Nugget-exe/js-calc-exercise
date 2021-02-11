@@ -1,0 +1,23 @@
+var first = window.prompt("Enter 1st number: ");
+var second = window.prompt("Enter 2nd number: ");
+var operator = window.prompt("Enter operator: ");
+
+function calc() {
+  switch(operator) {
+  case "add":
+    return first + second;
+    break;
+  case "sub":
+    return first - second;
+    break;
+  case "mul":
+    return first * second;
+    break;
+  case "div":
+    return first / second;
+    break;
+  default:
+    console.log("Error dumbass, you messed up");
+}
+
+console.log(calc);
